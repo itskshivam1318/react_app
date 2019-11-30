@@ -1,0 +1,19 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css'
+
+function MyInfo(){
+    return(
+        <div>
+            <h1>Shivam</h1>
+            <p>I am computer programmer, but i cannot code. hence i am useless</p>
+            <ul>
+                <li>Goa</li>
+                <li>Paris</li>
+                <li>kerala</li>
+            </ul>
+        </div>
+    )
+}
+
+ReactDOM.render(<MyInfo />,document.getElementById('root'))
